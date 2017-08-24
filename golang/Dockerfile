@@ -1,4 +1,4 @@
-FROM alpine
+FROM golang:alpine
 
 MAINTAINER wchuang <wchuang@aliyun.com>
 
