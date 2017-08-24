@@ -8,6 +8,7 @@ RUN apk add --no-cache --update-cache bash \
     curl \
     wget \
     vim \
+    ca-certificates \
     tzdata \
     && cp -r -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
